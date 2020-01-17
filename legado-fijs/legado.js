@@ -25,7 +25,7 @@ ctrl.setIntro( "<p>Madrid, 1880\
 
 ctrl.setPic( "res/legado-title.jpg" );
 ctrl.setAuthor( "Baltasar (baltasarq@gmail.com)" );
-ctrl.setVersion( "3.0 20200115" );
+ctrl.setVersion( "3.0 20200117" );
 
 // ***************************************************** Biblioteca --
 const locBiblioteca = ctrl.places.creaLoc(
@@ -818,12 +818,31 @@ function endGame(won, pic, msg)
     ctrl.endGame( msg, pic );
 }
 
-/* ... te sacudes una tela de araña en algún sitio por delante de ti, que parece pegarse a tu 
-pelo ... ... limpias las manos a los pantalones ...
-*/
+const ambientationMsgList = new MsgList(
+    [ "<i>...te sacudes una tela de araña en algún sitio por delante de ti, \
+       que parece pegarse a tu pelo... \
+       limpias las manos a los pantalones...</i>",
+       "<i>...escuchas un crujido por encima de tu cabeza.</i>",
+       "<i>...una gélida corriente de aire surge de alguna parte.</i>",
+       "<i>...en alguna parte, se escuchan los chillidos de una rata.</i>"],
+    true );
 
-/* en alguna parte, se escuchan los chillidos de una rata. */
+ctrl.addDaemon( "ambientation",
+                function() {
+                    if ( ctrl.getTurns() % 3 == 0) {
+                        const loc = ctrl.places.getCurrentLoc();
+                        
+                        if ( loc == locCuartoOscuro
+                          || loc == locBajoCubierta
+                          || loc == locPasilloBajoTierra
+                          || loc == locContinuaElPasillo
+                          || loc == locFinalDelPasillo
+                          || loc == locSalaOculta )
+                        {
+                            ctrl.print( ambientationMsgList.nextMsg() );
+                        }
+                    }
+                });
 
 ctrl.personas.changePlayer( player );
 ctrl.places.setStart( locBiblioteca );
-
