@@ -825,5 +825,5 @@ pelo ... ... limpias las manos a los pantalones ...
 /* en alguna parte, se escuchan los chillidos de una rata. */
 
 ctrl.personas.changePlayer( player );
-ctrl.places.setStart( locFinalDelPasillo );
+ctrl.places.setStart( locBiblioteca );
 

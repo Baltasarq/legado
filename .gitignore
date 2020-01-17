@@ -2,3 +2,9 @@
 *.bak
 *~
 
+# Interactive fiction games
+*.z5
+*.z7
+*.ulx
+*.blb
+*.gblorb
