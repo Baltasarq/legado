@@ -11,3 +11,4 @@ Nunca supiste a qué se refería exactamente con aquella frase, que te decía cu
 
 Los años pasaron, y tu tío acaba de morir dejándote como herencia su fortuna. Eso sí, para obtenerla, para ser merecedor de la misma, tendrías que pasar la noche en la biblioteca de su gran casa, y descubrir por tí mismo hasta dónde llegaba, y qué implicaba aquella herencia... sea lo que sea...
 
+**<a href="https://baltasarq.github.io/legado/">Jugar</a>**
