@@ -605,6 +605,16 @@ const locContinuaElPasillo = ctrl.places.creaLoc(
 locContinuaElPasillo.pic = "res/underground_passage.jpg";
 locContinuaElPasillo.setExitBi( "oeste", locPasilloBajoTierra );
 
+locContinuaElPasillo.postGo = function() {
+    if ( ctrl.getTurns() % 2 == 0 ) {
+        ctrl.print( "Has tropezado con algún saliente en el suelo \
+                caes de forma vergonzosa, pero solo puedes pensar \
+                en la oscuridad a tu alrededor. Te incorporas \
+                tratando de arreglar tu aspecto a la luz del \
+                candelabro." );
+    }
+};
+
 const locFinalDelPasillo = ctrl.places.creaLoc(
 	"Final del pasillo",
 	[ "final del pasillo" ],
