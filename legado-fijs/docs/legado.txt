@@ -1,0 +1,136 @@
+Biblioteca
+
+Esta biblioteca es la más grande que jamás has visto. Decorada con austeridad, miles y miles de libros de tamaño y colores variados se agolpan en la vieja estantería, sobrecargada por el peso de los volúmenes y la edad. En la pared norte, la única no cubierta por estanterías, hay un tapiz. Observas que los libros están ordenados por orden alfabético, por lo que podrías buscar uno en concreto. Al sur se encuentra el pasillo que conecta la biblioteca con el resto de la casa.
+
+> ex candelabro
+Es un candelabro de latón dorado, sin demasiado interés. Está apagado.
+
+> ex estanterias
+Es un antiguo mueble de madera de castaño gallego. Los estantes, pese a su dureza, están combados por el esfuerzo continuado de tantas décadas. Hay volúmenes de todos los tamaños y peso, y también de varios colores. Eso sí, están ordenados alfabéticamente.
+
+Puedes ver además un libro que te llama la atención, con las tapas azules.
+
+> ex tapiz
+Es un tapiz del almirante Gravina, comandante de la escuadra española que, junto a la francesa, se enfrentó a la inglesa en el cabo de Trafalgar. El tapiz, totalmente desplegado, cuelga de unas arandelas de madera en una barra fijada al techo, también de madera.
+
+> ex libro azul
+Es un ejemplar magnífico, encuadernado con gran lujo, de El Quijote. ‘En un lugar de la mancha, de cuyo nombre no quiero acordarme, no ha mucho tiempo que vivía un hidalgo de los de lanza en astillero, adarga antigua, rocín flaco y galgo corredor. Una olla de algo más vaca que carnero, salpicón las más noches, duelos y quebrantos los sábados, lantejas los viernes, algún palomino de añadidura los domingos, consumían las tres partes de su hacienda. (...)’ El resto ya lo conoces. Hay algo extraño en ciertos rabos y ciertas partes de las letras del texto. Quizás, si lo estudiaras más a fondo...
+
+¡Por fin reconoces un mensaje escondido! ‘En un Lugar de la manchA, de cuyo nombre no quiero aCordarme, no ha mucho tiempo que vivía un hidaLgo de los de lanza en astillero, Adarga antigua, rocín flaco y galgo corredor. Una olla de algo más Vaca quE carnEro, Salpicón las más noches, duelos y quebRantos los sábados, lantEjas los viernes, alGún palomino dE añadidura los domiNgos, consumían las Tres pArtes de su hacienda. (...)’
+
+Hojeas un excelente tomo, ‘La Regenta’, de Clarín. Te recreas en la minuciosa descripción que el autor hace de la torre de la iglesia, para después maravillarte con la soberbia mención del paisaje. Vuelves a colocar el tomo en su estante.
+
+¡De entre las páginas del libro sale una pequeña llave!
+
+> ex llave
+Pues sí, es una pequeña llave.
+
+> coge llave
+Cogida.
+
+> coge tapiz
+Descorres el tapiz, dejando a la vista una puerta con una cerradura.
+
+> ex puerta
+Una puerta estaba oculta detrás del tapiz. Es una tosca pero efectiva tabla de fuerte madera chapada en acero, en un fuerte marco. Está cerrada.
+
+> abre puerta
+Has abierto la puerta, descubriendo un oscuro pasadizo...
+
+> e a Cuarto oscuro
+
+> s
+Pasillo
+
+El pasillo que conduce a la biblioteca es estrecho y huele a humedad. Está simplemente encalado en blanco.
+
+> s
+
+Sala de estar
+
+Un amplio salón se abre en esta luminosa estancia. Los sobrecargados adornos  contrastan con la sobriedad de la biblioteca y del pasillo que acabas de abandonar. Está claro que el secreto del legado es demasiado para ti. De todas formas, nunca necesitaste ayuda económica de nadie para seguir adelante. El albacea de tu tío encontrará con seguridad alguien que quiera superar la prueba y hacerse rico.... sin duda.
+
+.end
+
+! Has entrado en un cuarto oscuro ... esperas un rato para dar tiempo a tus ojos a 
+! acostumbrarse a la penumbra.
+
+Cuarto oscuro
+
+El pequeño cuarto oscuro es tan estrecho que prácticamente no cabes en él. La tenue  luz que se filtra de la biblioteca parece no poder vencer la casi tenebrosa atmósfera alrededor. Todo está lleno de polvo, que flota en el ambiente. Hay unos salientes moldeados en la totalidad de una de las paredes, que parecen conducir hacia arriba, donde la oscuridad, aparentemente, es todavía más densa.
+
+! En algún lugar de la oscuridad, una rata corre chillando ... finalmente, todo es silencio otra vez ...
+
+> ex trampilla
+En el suelo hay una trampilla. Aparece disimulada por la apariencia gastada de su madera, que se confunde con la humedad dispersa por todo el recinto. La trampilla está cerrada.
+
+> abre trampilla
+Con dificultad, pero, a la vez, temiendo que se rompiera, tomas un pequeño asidero y mueves la trampilla, que chilla y parece deshacerse en trozos de madera carcomida y telarañas. La trampilla está abierta.
+
+> bajar a Pasillo bajo tierra
+
+> sube
+
+Bajo cubierta
+
+Encima del cuarto oscuro se abre un trozo de desván. En realidad, no es más que uno de los extremos del tejado, cortado por un tabique. Nunca te habías dado cuenta de que el tejado era más corto de lo que realmente debería ser, aunque el espacio es realmente pequeño. Sólo puedes mantenerte de pié al lado contrario de la abertura que conduce al cuarto oscuro. Estás de pié justo encima de la biblioteca.
+
+> ex suelo
+Palpando el suelo encuentras unas cuantas tablas sueltas.
+
+> coge tablas
+Debajo de las tablas encuentras.... ¡Unos bonos!
+
+> ex bonos
+Son una colección exclusiva de 10 bonos del estado, por valor de 100 000 coronas cada uno. Es un millón de coronas... toda una fortuna.
+
+> coge bonos
+Ahora tengo unos bonos del estado.
+
+! ...te sacudes una tela de araña en algún sitio por delante de ti, que parece pegarse a tu pelo ... ... limpias las manos a los pantalones ...
+
+.end
+
+Pasillo bajo tierra
+
+! Al descender por la trampilla, alcanzas el suelo envuelto en las sombras más absolutas,que no parecen querer retroceder, sino, por el contrario, parecen querer envolverte, como un ente maligno ...
+
+Has accedido a un estrecho pasillo en el sótano, a través de unas escaleras pegadas a la pared.  Todo es oscuridad aquí dentro, tenebrosamente oscuro y cerrado. Las sombras se alargan a la luz de tu candelabro. El techo, jalonado de telas de araña y otros bichos que ni siquiera te atreves a examinar de cerca, es el soporte de la vieja biblioteca. La soledad y la tristeza se adivinan por doquier. El estrecho pasillo continúa hacia el este a través de la oscuridad.
+
+> e
+
+! Te mueves con dificultad por el pasillo... caes al suelo, perdiendo el equilibrio por culpa de una tabla... o algo así... mal colocada, sobresaliente. Con dificultades, vuelves a incorporarte... no puedes evitar sentirte más nervioso e inseguro....
+
+Continua el pasillo
+
+Continúas por el estrecho pasillo. La oscuridad te rodea y parece envolverte, cada vez que pretendes dar un paso. La tristeza y abandono del lugar son más patentes aquí. A duras penas te orientas en el pasillo. Pareciera que el tiempo se ha detenido. Sin embargo, sabes que hacia el oeste se encuentra la biblioteca (y la luz), mientras al este ...
+
+! Una gélida ráfaga de aire te eriza los pelos de la nuca ... ante ti, la llama del candelabro tiembla, proyectando grotescas formas en las paredes ...
+! El candelabro está ahora apagado.
+
+> e
+
+Final del pasillo
+
+El estrecho pasillo huele en este punto a humedad. Debes estar debajo de las cocinas  de la gran casa, deduces. Nunca te ha gustado la oscuridad, pero en este pasillo no puedes escapar de ella. La biblioteca al oeste te da un poco de tranquilidad, aunque desde este punto no puedes ver las escaleras hacia el cuarto oscuro, y la biblioteca. La inquietud te invade lentamente. Al este...
+
+> e
+
+Sala oculta
+
+De repente, la estrechez del pasillo se abre a una baja pero ancha estancia. No puedes ver más que lo que hay delante de tí: un altar, y sobre él, una vieja lámpara. La oscuridad es casi impenetrable. Te quedas paralizado, con temor a moverte demasiado. Sientes contínuamente unas ganas terribles de volver al oeste, por donde has venido. Pero estás aquí...
+
+> ex lampara
+Es una vieja lámpara, cubierta de telarañas pero que todavía podría funcionar.
+
+> enciende lampara
+Acercando tu candelabro, levantas la pantalla de la lámpara y la enciendes ...
+
+ En ese preciso instante, tienes una espeluznante visión de la cripta. La visión es tan escalofriante, tan estremecedora, que dejas caer la pantalla de la lámpara, comenzando ésta a apagarse. No das crédito a tus ojos. Intentas salir corriendo... pero no puedes. El miedo te atenaza. La llama de la lámpara, al consumirse poco a poco, traza macabros bailes sobre la más aún macabra escena en el suelo de la cripta. La lámpara, finalmente, se consume del todo, mientras, a la vez, tus ojos se abren más y más por el pánico.  Un sudor frío empapa tu cuerpo ... no puedes creer lo que has visto. ¿Sería real tan descabellada, macabra... horrible ...oh, Dios mío... Cientos de ideas cruzan por tu mente en décimas de segundo ... no puede ser... no puede suceder... en un país civilizado como éste... es horrible, horrible ...
+
+
+Repentinamente, vences tu parálisis mental y sales por fin corriendo, teniendo miedo ahora de cada sitio donde pones los pies... temiendo tocar... pisar... eso... Te arrojas en los brazos de la oscuridad, hacia donde sabes que, al final de ese túnel, está la luz reconfortante de la biblioteca... Trastabillas por el pasillo, golpeándote y quemándote en ocasiones con la cera del candelabro... Estás de nuevo bajo la biblioteca, debajo de la trampilla que te dio acceso a tan inconmensurable secreto...
+ 
+! Estás terriblemente alterado por lo que has visto ...
+
+.end

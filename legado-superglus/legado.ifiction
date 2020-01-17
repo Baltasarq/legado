@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ifindex version="1.0" xmlns="http://babel.ifarchive.org/protocol/iFiction/">
+    <story>
+        <identification>
+            <format>glulx</format>
+        </identification>
+        <bibliographic>
+            <title>Legado</title>
+            <author>Maluva</author>
+            <language>ES</language>
+            <headline>Descubriendo tus responsabilidades</headline>
+            <genre>Horror</genre>
+            <description>1880<br>Tu tío ha muerto.<br>Tu tío, con quien compartías una estrecha relación, y que de hecho te ha nombrado heredero.<br>A la herencia la acompaña una responsabilidad...<br>¿Que querría decir tu tío con aquello?</description>
+        </bibliographic>
+        <contacts>
+            <authoremail>baltasarq@gmail.com</authoremail>
+            <url>http://caad.es/baltasarq/</url>
+        </contacts>
+        <release>
+            <version>1</version>
+            <releasedate>2002/02/18</releasedate>
+        </release>
+        <colophon>
+            <generator>Inferno</generator>
+            <originated>2009/05/18</originated>
+        </colophon>
+    </story>
+</ifindex>

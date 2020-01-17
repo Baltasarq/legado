@@ -1,0 +1,1671 @@
+##define grf oscuridad.jpg 0
+##define grf puerta.jpg 1
+##define snd goteo.aif 1
+##define snd panico.mod 2
+/CTL
+_	;El carácter de palabra nula es el subrayado;	-	-	-	-	-	-	-	-	-
+/VOC
+;
+;
+
+;Vocabulario mínimo para una aventura
+;Vocabulario =================================================================
+;			Movimientos, es decir, verbos y sustantivos < 14
+N	2	noun
+NORTE	2	noun
+S	3	noun
+SUR  	3	noun
+E	4	noun
+ESTE	4	noun
+O	5	noun
+OESTE   5	noun
+NE	6	noun
+NORESTE	6 noun
+NORDESTE	6	noun
+NO	7	noun
+NOROESTE	7	noun
+SE	8	noun
+SURESTE	8	noun
+SUDESTE	8	noun
+SO	9	noun
+SUROESTE	9	noun
+ARRIBA   10      noun
+AR	10	noun
+CIELO 10    noun
+TECHO 10    noun
+SUBIR	10	verb
+SUBE	10	verb
+BAJA      11	noun
+BAJAR      11	noun
+ABAJO   11	noun
+SUELO   11  noun
+entra 12    verb
+entrar 12    verb
+metete 12    verb
+meterse 12    verb
+sal   13    verb
+salir 13    verb
+;                   Sustantivos <20 se pueden usar como verbos
+;			        <50 propios (sin pronombre)
+I	14	noun
+INVEN	14	noun
+TODO	20	noun
+ON    21    noun
+OFF   22    noun
+;			Verbos
+COGER   20	verb
+COGE   20	verb
+TOMAR	20	verb
+TOMA	20	verb
+DEJAR	21	verb
+DEJA	21	verb
+meter 21	verb
+mete 21 verb
+QUITA	22	verb
+QUITAR	22	verb
+QUITARSE	22	verb
+VESTIR	23	verb
+viste 23 verb
+vestirse 23 verb
+PONER	23	verb
+PON	23	verb
+PONTE	23	verb
+M	24	verb
+MIRAR	24	verb
+MIRA	24	verb
+FIN     25	verb
+ACABA   25	verb
+ACABAR   25	verb
+GUARDAR	26	verb
+GUARDA	26	verb
+CARGAR	27	verb
+CARGA	27	verb
+RAMLOAD	28	verb
+RAMSAVE	29	verb
+EXAMINA	30	verb
+EXAMINAR 30	verb
+EX    30    verb
+X     30    verb
+DECIR	31	verb
+DI	31	verb
+PREGUNTA 31	verb
+PREGUNTAR 31	verb
+HABLA	31	verb
+HABLAR	31	verb
+saca 32     verb
+sacar 32    verb
+graficos 33    verb
+sonidos 34    verb
+sonido 34    verb
+
+;				Adjetivos
+PEQUEÑO	2	adjective
+GRAN	3	adjective
+GRANDE	3	adjective
+VIEJO	4	adjective
+VIEJA	4	adjective
+NUEVO	5	adjective
+NUEVA	5	adjective
+DURO	6	adjective
+DURA	6	adjective
+BLANDO	7	adjective
+BLANDA	7	adjective
+CORTO	8	adjective
+CORTA	8	adjective
+LARGO	9	adjective
+LARGA	9	adjective
+; ENCENDIDO	10	ADJECTIVE
+; APAGADO	11	ADJECTIVE
+;				Adverbios
+RAPIDAMENTE	2	adverb
+LENTAMENTE	3	adverb
+SIGILOSAMENTE	4	adverb
+RUIDOSAMENTE	5	adverb
+CUIDADOSAMENTE	6	adverb
+SUAVEMENTE	6	adverb
+GENTILMENTE	6	adverb
+;				Preposiciones
+A	2	preposition
+DESDE	3	preposition
+DENTRO	4	preposition
+FUERA	5	preposition
+TRAVES	6	preposition
+SOBRE	7	preposition
+BAJO	8	preposition
+LADO	9	preposition
+EN	12	preposition
+EXCEPTO	13	preposition
+de    14    preposition
+del   14    preposition
+con   15    preposition
+;				Pronombres
+LO	2	pronoun
+LOS	2	pronoun
+LA	2	pronoun
+LAS	2	pronoun
+LE	2	pronoun
+LES	2	pronoun
+;				Conjunciones
+Y	2	conjunction
+ENTONCES 2	conjunction
+
+
+dorado     12 adjective
+azul       13 adjective
+;
+;
+leer       50 verb
+lee        50 verb
+estudiar      51 verb
+estudia      51 verb
+busca      52 verb
+buscar      52 verb
+localiza      52 verb
+localizar      52 verb
+encuentra      53 verb
+encontrar      53 verb
+correr      54 verb
+corre      54 verb
+estira      54 verb
+estirar      54 verb
+despliega 54 verb
+desplegar 54 verb
+cubrir     54 verb
+cubre      54 verb
+pliega      55 verb
+plegar 55 verb
+descorrer      55 verb
+descorre      55 verb
+separar      55 verb
+separa      55 verb
+retirar      55 verb
+retira      55 verb
+descubrir  55 verb
+descubre  55 verb
+abrir      56 verb
+abre       56 verb
+cierra      57 verb
+cerrar      57 verb
+apaga      58 verb
+apagar      58 verb
+enciende   59 verb
+encender   59 verb
+levantar      60 verb
+levanta      60 verb
+mover      61 verb
+mueve      61 verb
+muevo      61 verb
+;
+;
+candelabro 51 noun
+libro      52 noun
+libros 53 noun
+libreria      53 noun
+librería      53 noun
+estante      53 noun
+estantes      53 noun
+estanteria      53 noun
+estantería      53 noun
+mueble      53 noun
+regenta    54 noun
+llave      55 noun
+tapiz      56 noun
+cortina    56 noun
+puerta      57 noun
+trampilla  57 noun
+detras     58 noun
+tras       58 noun
+detrás     58 noun
+quijote    59 noun
+cid        60 noun
+bonos      61 noun
+altar      62 noun
+lampara      63 noun
+lámpara     63 noun
+tabla      64 noun
+tablas      64 noun
+tablilla      64 noun
+tablillas      64 noun
+cerilla      65 noun
+cerillas      65 noun
+lazarillo      66 noun
+robinson      67 noun
+mosquetero      68 noun
+tesis      69 noun
+leguas      70 noun
+trafalgar      71 noun
+biblia     72 noun
+;
+;
+;
+;	-	-	-	-	-	-	-	-	-
+/STX
+;
+;
+; Mensajes de sistema en Español
+; sysmsgesp.txp
+; =============================================================================
+/0
+Esta demasiado oscuro como para ver.
+/1
+Tambien veo: 
+
+/2
+
+¿Y ahora qué?
+
+/3
+
+¿Y a continuación?
+
+/4
+
+¿Qué debo hacer ahora?
+
+/5
+
+¿Qué tendría que hacer a continuación?
+
+/6
+No he entendido nada. Por favor, intentalo de nuevo.
+
+/7
+No puedo ir en esa dirección.
+
+/8
+No puedo hacer eso.
+
+/9
+Llevo:
+/10
+ (puesto)
+/11
+nada de nada.
+
+/12
+¿Estás seguro? 
+/13
+¿Quieres intentarlo otra vez? 
+/14
+Adios...
+/15
+Vale.
+
+/16
+Pulsa una tecla para continuar.
+
+/17
+Has jugado 
+/18
+ turno
+/19
+s
+/20
+.
+
+/21
+Tu puntuación ha sido del 
+/22
+%
+
+/23
+No llevo puesto eso.
+
+/24
+No puedo. Llevo puesto _.
+
+/25
+Ya tengo _.
+
+/26
+No hay nada de eso por aquí.
+
+/27
+No puedo llevar más cosas.
+
+/28
+No tengo eso.
+
+/29
+Ya llevo puesto _.
+
+/30	;Un solo caracter en mayuscula
+S
+/31	;Un solo caracter en mayuscula
+N
+/32
+Más...
+/33
+>
+/34	;De repuesto
+/35
+
+El tiempo pasa...
+
+/36
+Ahora tengo _.
+
+/37
+Ahora llevo puesto _.
+
+/38
+Me he quitado _.
+
+/39
+He dejado _.
+
+/40
+No me puedo poner _.
+
+/41
+No me puedo quitar _.
+
+/42
+No me puedo quitar _. Tengo las manos llenas de cosas.
+
+/43
+Pero _ pesa demasiado para mi.
+
+/44
+Ahora _ esta en 
+/45
+Pero _ no esta en
+/46
+, 
+/47
+ y 
+/48
+.
+
+/49
+No tengo _.
+
+/50
+No llevo puesto _.
+
+/51
+.
+
+/52
+No hay nada de eso en 
+/53
+nada.
+
+/54
+Fichero no encontrado.
+/55                  
+Fichero inválido.
+/56
+¡Error de E/S!  ¡El Fichero no ha sido Grabado!
+/57
+Directorio lleno.
+/58
+Disco lleno.
+/59
+Error en el nombre del fichero.
+/60
+Escribe el nombre del fichero. 
+/61
+¿Perdón?
+
+/62
+¿Cómo?
+/63
+Aventura con gráficos.
+/64
+Aventura sólo texto.
+/65
+Aventura con sonido.
+/66
+Aventura sin sonido.
+
+;
+;	-	-	-	-	-	-	-	-	-
+;
+;
+/MTX
+;
+; legmens.txp
+;====================================================================
+/0
+##define msg msgNombre 0
+
+El Legado
+
+/1
+##define msg msgRelease 1
+
+El Legado, por Baltasarq
+
+Original:
+txtPAWS 0.5 /
+Paguaglús 0.98
+serial 030222
+release 1
+
+Recompilado con:
+txtPAWS 1.24 /
+Superglús 1.0
+serial 090520
+release 2
+
+/2
+##define msg nofin 2
+
+
+
+Está claro que el secreto del legado es demasiado para ti.
+De todas formas, nunca necesitaste ayuda económica de nadie para seguir adelante.
+El albacea de tu tío encontrará con seguridad alguien que quiera superar
+la prueba y hacerse rico .... sin duda.
+/3
+##define msg candelabro_desc 3
+Es un candelabro de latón dorado, sin demasiado interés.
+;
+;
+;
+/4
+##define msg nadaespecial 4
+Eso no tiene nada especial.
+;
+;
+;
+/5
+##define msg mensaje_secreto 5
+
+¡Por fin reconoces un mensaje escondido!
+
+'En un Lugar de la manchA, de cuyo nombre no quiero aCordarme,
+no ha mucho tiempo que vivía un hidaLgo de los de lanza en astillero,
+Adarga antigua, rocín flaco y galgo corredor. Una olla de algo más Vaca
+quE carnEro, Salpicón las más noches, duelos y quebRantos los sábados,
+lantEjas los viernes, alGún palomino dE añadidura los domiNgos, consumían
+las Tres pArtes de su hacienda. (...)'
+/6
+##define msg intuyes_sistema 6
+
+Es un ejemplar magnífico, encuadernado con gran lujo, de El Quijote.
+
+'En un lugar de la mancha, de cuyo nombre no quiero acordarme,
+no ha mucho tiempo que vivía un hidalgo de los de lanza en astillero,
+adarga antigua, rocín flaco y galgo corredor. Una olla de algo más vaca
+que carnero, salpicón las más noches, duelos y quebrantos los sábados,
+lantejas los viernes, algún palomino de añadidura los domingos, consumían
+las tres partes de su hacienda. (...)'
+
+El resto ya lo conoces.
+
+Hay algo extraño en ciertos rabos y ciertas partes de las letras del texto.
+
+Quizás, si lo estudiaras más a fondo ...
+/7
+##define msg libreria_desc 7
+
+Es un antiguo mueble de madera de castaño gallego. Los estantes, pese a su
+dureza, están combados por el esfuerzo continuado de tantas décadas.
+
+Hay volúmenes de todos los tamaños y peso, y también de varios colores. Eso sí,
+están ordenados alfabéticamente.
+
+/8
+##define msg encuentra_libro 8
+
+Puedes ver además un libro que te llama la atención, con las tapas azules.
+
+/9
+##define msg no_estudio 9
+Bastará con que lo examines.
+
+/10
+##define msg hojeas_regenta 10
+Hojeas un excelente tomo, 'La Regenta', de Clarín
+
+Te recreas en la minuciosa descripción que el autor hace de la torre de la
+iglesia, para después maravillarte con la soberbia mención del paisaje.
+
+Vuelves a colocar el tomo en su estante.
+
+/11
+##define msg encuentras_llave 11
+¡De entre las páginas del libro sale una pequeña llave!
+
+/12
+##define msg no_encuentras_libro 12
+No ... ese ejemplar parece no estar en esta biblioteca. De todas formas, lo de
+buscar alfabéticamente nunca se te ha dado demasiado bien ...
+
+/13
+##define msg no_buscar 13
+Ahora no es el momento de buscar nada.
+/14
+##define msg llave_desc 14
+Pues sí, es una pequeña llave.
+
+/15
+##define msg hojeas_regenta2 15
+Hojeas de nuevo 'La Regenta', y la vuelves a colocar en su estante.
+
+/16
+##define msg hojeas_quijote2 16
+Hojeas de nuevo 'El Quijote' de Cervantes.
+
+/17
+##define msg tapiz_desc 17
+Es un tapiz del almirante Gravina, comandante de la escuadra española que,
+junto a la francesa, se enfrentó a la inglesa en el cabo de Trafalgar.
+
+/18
+##define msg tapiz_esta_corrido 18
+El tapiz, totalmente desplegado, cuelga de unas arandelas de madera en una barra fijada al techo,
+también de madera.
+
+/19
+##define msg tapiz_esta_descorrido 19
+El tapiz está plegado junto a la pared oeste.
+
+/20
+##define msg tapiz_en_biblio 20
+El tapiz está en la biblioteca.
+
+/21
+##define msg corres_tapiz 21
+Corres el tapiz, tapando la pared norte.
+
+/22
+##define msg descorres_tapiz 22
+Descorres el tapiz, dejando a la vista una puerta con una cerradura.
+
+/23
+##define msg que_puerta 23
+¿Una puerta? ¿Dónde?
+
+/24
+##define msg puerta_bloqueada 24
+La puerta está cerrada con llave.
+
+/25
+##define msg has_abierto_puerta 25
+Has abierto la puerta, descubriendo un oscuro pasadizo ...
+
+/26
+##define msg puerta_desc 26
+
+
+Una puerta está detrás del tapiz.
+
+Es una tosca pero efectiva tabla de fuerte madera chapada en acero,
+en un fuerte marco. 
+
+/27
+##define msg descorre_el_tapiz_hombre 27
+Sería mejor que descorrieras el tapiz.
+
+/28
+##define msg hojeas_cid 28
+
+Encuentras un ejemplar de 'Cantares de Mío Cid', anónimo.
+Lo hojeas un poco y vuelves a dejarlo en el estante.
+
+/29
+##define msg puerta_esta_abierta 29
+La puerta está abierta.
+
+/30
+##define msg puerta_esta_cerrada 30
+La puerta está cerrada.
+
+/31
+##define msg esta_muy_oscuro 31
+Has entrado en un cuarto oscuro ... esperas un rato para dar tiempo a tus ojos
+a acostumbrarse a la penumbra.
+
+/32
+##define msg bonos_desc 32
+Son una colección exclusiva de 10 bonos del estado, por valor de 100 000 coronas
+cada uno. Es un millón de coronas ... toda una fortuna.
+
+/33
+##define msg candelabro_esta_apagado 33
+El candelabro está ahora apagado.
+
+/34
+##define msg candelabro_nota 34
+El candelabro no está aquí.
+
+/35
+##define msg candelabro_esta_encendido 35
+El candelabro está ahora encendido.
+
+/36
+##define msg no_esta_tan_oscuro 36
+Sales de la penumbra de nuevo a la luz ... tus ojos tardan un poco en acostumbrarse ...
+
+/37
+##define msg trampilla_desc 37
+En el suelo hay una trampilla. Aparece disimulada por la apariencia gastada de su
+madera, que se confunde con la humedad dispersa por todo el recinto.
+
+/38
+##define msg trampilla_esta_abierta 38
+La trampilla está abierta.
+
+/39
+##define msg trampilla_esta_cerrada 39
+La trampilla está cerrada.
+
+/40
+##define msg mueves_la_trampilla 40
+Con dificultad, pero, a la vez, temiendo que se rompiera, tomas un pequeño asidero
+y mueves la trampilla, que chilla y parece deshacerse en trozos de madera carcomida
+y telarañas.
+
+/41
+##define msg esta_realmente_oscuro 41
+Al descender por la trampilla, alcanzas el suelo envuelto en las sombras más absolutas,
+que no parecen querer retroceder, sino, por el contrario, parecen querer envolverte, como
+un ente maligno ...
+
+/42
+##define msg lampara_desc 42
+Es una vieja lámpara, cubierta de telarañas pero que todavía podría funcionar.
+
+/43
+##define msg altar_desc 43
+El altar se sitúa en el centro de la estancia, cubierto por un mantel blanco sin
+marcas, que sin duda ha visto mejores épocas. Manchas de orín y de humedad lo
+salpican por doquier. Encima de él, ves una vieja lámpara.
+
+/44
+##define msg te_cagas 44
+
+
+Acercando tu candelabro, levantas la pantalla de la lámpara y la enciendes ...
+
+
+En ese preciso instante, tienes una espeluznante visión de la cripta. La visión es
+tan escalofriante, tan estremecedora, que dejas caer la pantalla de la lámpara,
+comenzando ésta a apagarse. No das crédito a tus ojos. Intentas salir corriendo ... pero no puedes.
+El miedo te atenaza. La llama de la lámpara, al consumirse poco a poco, traza macabros
+bailes sobre la más aún macabra escena en el suelo de la cripta. La lámpara, finalmente,
+se consume del todo, mientras, a la vez, tus ojos se abren más y más por el pánico. 
+Un sudor frío empapa tu cuerpo ... no puedes creer lo que
+has visto. ¿Sería real tan descabellada, macabra ... horrible ... oh, Dios mío ...
+Cientos de ideas cruzan por tu mente en décimas de segundo ... no puede ser ...
+no puede suceder ... en un país civilizado como éste ... es horrible, horrible ...
+
+/45
+##define msg con_que 45
+¿Con qué quieres encenderla?
+
+/46
+##define msg estas_cagao 46
+Piensas en la luz reconfortante de la biblioteca.
+El cuerpo te tiembla ...
+
+No puedes volver allí ...
+
+No puedes ...
+
+/47
+##define msg paso_a_sotano2 47
+Te mueves con dificultad por el pasillo ... caes al suelo, perdiendo el equilibrio
+por culpa de una tabla ... o algo ... mal colocada, sobresaliente.
+Con dificultades, vuelves a incorporarte ... no puedes evitar sentirte más
+nervioso e inseguro ....
+
+/48
+##define msg tablas_desvan_desc 48
+Palpando el suelo encuentras unas cuantas tablas sueltas.
+
+/49
+##define msg encuentras_bonos 49
+Debajo de las tablas encuentras .... ¡unos bonos! ...
+
+/50
+##define msg te_cagas2 50
+
+Repentinamente, vences tu parálisis mental y sales por fin corriendo, teniendo miedo ahora de cada sitio
+donde pones los pies ... temiendo tocar ... pisar ... eso ...
+
+Te arrojas en los brazos de la oscuridad, hacia donde sabes que, al final de ese túnel, está la luz
+reconfortante de la biblioteca ...
+
+Trastabillas por el pasillo, golpeándote y quemándote en ocasiones con la cera
+del candelabro ...
+
+Estás de nuevo bajo la biblioteca, debajo de la trampilla que te dio acceso a
+tan inconmensurable secreto ...
+
+/51
+##define msg estas_nervioso 51
+
+Estás terriblemente alterado por lo que has visto ...
+
+/52
+##define msg encontraste_pasta 52
+
+Estos bonos serán en definitiva de mucha ayuda. Te alegras de que tu tío los
+dejara escondidos para ti.
+
+
+Aparece ante ti una nueva vida, sin ahogos, y sin ningún problema. Piensas en las Américas,
+en todas sus posibilidades ...
+
+... te preguntas a qué se refería tu tío con aquello de una responsabilidad, o
+algo así ... claro que la felicidad hace que seas capaz de obviar ese pequeño detalle ...
+
+/53
+##define msg encontraste_todo 53
+
+Estos bonos serán en definitiva de mucha ayuda. Te alegras de que tu tío los
+dejara escondidos para ti.
+Aparece ante ti una nueva vida, sin ahogos, y sin ningún problema.
+
+Sin embargo, no puedes apartar tu mente de la visión de la cripta ...
+
+Cómo pudo ser tu tío capaz ... cómo pudo ser tu familia capaz ...
+
+
+Unos días más tarde .. tu mismo le plantas fuego a la casa, y con el dinero
+encontrado ... buscas una nueva vida en las américas.
+
+/54
+##define msg encontraste_vision 54
+
+
+No puedes apartar tu mente de la visión de la cripta ...
+
+Cómo pudo ser tu tío capaz ... cómo pudo ser tu familia capaz ...
+
+
+Unos días más tarde .. tu mismo le plantas fuego a la casa, y ... 
+buscas una nueva vida en las américas.
+
+/55
+##define msg aire_gelido 55
+Una gélida ráfaga de aire te eriza los pelos de la nuca ... ante ti, la llama
+del candelabro tiembla, proyectando grotescas formas en las paredes ...
+
+/56
+##define msg necesito_cerillas 56
+¡Necesito algo para encenderlo!
+
+/57
+##define msg cerillas_desc 57
+mmm ... hay cerillas de sobra ...
+
+/58
+##define msg hay_una_rata 58
+En algún lugar de la oscuridad, una rata corre chillando ... finalmente, todo es
+silencio otra vez ...
+
+/59
+##define msg hay_arannas 59
+... te sacudes una tela de araña en algún sitio por delante de ti, que parece pegarse a tu pelo ...
+... limpias las manos a los pantalones ...
+
+/60
+##define msg hojeas_lazarillo 60
+Encuentras -El lazarillo de Tormes-, anónimo.
+Es un gran libro ... recuerdas haberlo leído hace años, en la escuela ...
+te sentías identificado con el protagonista ...
+Vuelves a colocarlo en el estante ...
+
+/61
+##define msg hojeas_tesis 61
+Has encontrado dos tesis: una de un tal Baltasar, y la otra de un tal Zak.
+Estás seguro de no poder entender nada de lo que pone allí, así que las vuelves
+a dejar en su sitio.
+
+Te miras las manos preocupado, como si fuera posible que se te hubiera quedado
+algo pegado.
+
+/62
+##define msg hojeas_mosqueteros 62
+-Los 3 mosqueteros-, de Alejandro Dumas, es épica aventura ... te regodeas con los pasajes 
+relativos al "amorío" de Athos,
+que parecen
+corresponderse con la más típica picaresca española (pese a ser una novela francesa),
+y que nadie parece conocer. 
+Ésta, por supuesto, es la versión completa de las aventuras de los tres mosqueteros ...
+
+/63
+##define msg hojeas_robinson 63
+Encuentras -Robinson Crusoe-, de Daniel Defoe ...
+Es fascinante este relato romántico de um hombre perdido en una isla ...
+
+/64
+##define msg hojeas_leguas 64
+Has encontrado -20 mil leguas de viaje submarino-, de Julio Verne.
+Te preguntas cuánto hay de cierto en la posibilidad de una máquina que navega
+por debajo del agua ...
+
+/65
+##define msg libro_no_se_coge 65
+Prefieres dejar todos los ejemplares en su sitio ...
+
+/66
+##define msg hojeas_biblia 66
+Has encontrado un lujoso ejemplar de la Sagrada Biblia. Te entretienes 
+leyendo el Génesis del Antiguo Testamento.
+
+/67
+##define msg hojeas_trafalgar 67
+Uno de los volúmenes es, efectivamente, Trafalgar, de 
+Benito Pérez Galdós. Cruenta batalla, desde luego.
+Confías en que España se recupere de ese desastre, ya relativamente 
+lejano en el tiempo. Algunos afirman que España nunca recuperará 
+su esplendor después de aquello.
+
+;
+;	-	-	-	-	-	-	-	-	-
+/OTX
+/0 = oCandelabro
+un candelabro encendido.
+/1 = oLibro
+un libro azul.
+/2 = oLlave
+una llave pequeña.
+/3 = oBonos
+unos bonos del estado.
+/4 = oCandelabroApagado
+un candelabro apagado.
+/5 = oCerillas
+unas cerillas.
+;	-	-	-	-	-	-	-	-	-
+/LTX
+/0 ; Introducción
+##define pic legado.jpg 0
+
+Madrid, 1880
+
+Tu tío ha muerto.
+
+
+El dolor te embarga ... estabais tan unidos ...
+
+
+
+Tu tío siempre te dijo que tú heredarías su fortuna ...
+y su responsabilidad.
+
+
+Nunca supiste a qué se refería exactamente con aquella frase, que te decía
+cuando eras un niño y jugabas en sus brazos.
+Los años pasaron, y tu tío acaba de morir dejándote como herencia su fortuna.
+Eso sí, para obtenerla, para ser merecedor de la misma, tendrías que
+pasar la noche en la biblioteca de su gran casa, y descubrir
+por tí mismo cuánto abarcaba la herencia ... sea lo que sea ...
+
+/1
+##define loc lBiblio 1
+##define pic biblio.jpg 1
+Esta biblioteca es la más grande que jamás has visto. Decorada con austeridad,
+miles y miles de libros de tamaño y colores variados se agolpan en la vieja
+estantería, sobrecargada por el peso de los volúmenes y la edad. En la pared
+norte, la única no cubierta por estanterías, hay un tapiz.
+Observas que los libros están ordenados por orden alfabético, por lo que podrías
+buscar uno en concreto.
+Al sur se encuentra el pasillo que conecta la biblioteca con el resto de la casa.
+/2
+##define loc lPasillo 2
+##define pic pasillo.jpg 2
+El pasillo que conduce a la biblioteca es estrecho y huele a humedad. Está
+simplemente encalado en blanco.
+/3
+##define loc lSalon 3
+##define pic salon.jpg 3
+Un amplio salón se abre en esta luminosa estancia. Los sobrecargados adornos
+contrastan con la sobriedad de la biblioteca y del pasillo que acabas de
+abandonar.
+/4
+##define loc lCuartoOscuro 4
+##define pic cuarto.jpg 4
+El pequeño cuarto oscuro es tan estrecho que prácticamente no cabes en él. La
+tenue luz que se filtra de la biblioteca parece no poder vencer la casi tenebrosa
+atmósfera alrededor. Todo está lleno de polvo, que flota en el ambiente.
+Hay unos salientes moldeados en la totalidad de una de las paredes, que parecen conducir hacia arriba,
+donde la oscuridad, aparentemente, es todavía más densa.
+/5
+##define loc lDesvan 5
+##define pic desvan.jpg 5
+Encima del cuarto oscuro se abre un trozo de desván. En realidad, no es más
+que uno de los extremos
+del tejado, cortado por un tabique. Nunca te habías dado cuenta de que el tejado
+era más corto de lo que realmente debería ser, aunque el espacio es realmente
+pequeño. Sólo puedes mantenerte de pié al lado contrario de la abertura que
+conduce al cuarto oscuro. Estás de pié justo encima de la biblioteca.
+/6
+##define loc lSotano 6
+##define pic pasadizo.jpg 6
+Has accedido a un estrecho pasillo en el sótano, a través de unas escaleras pegadas a la pared. 
+Todo es oscuridad aquí dentro, tenebrosamente oscuro y cerrado. Las sombras
+se alargan a la luz de tu candelabro. El techo, jalonado de telas de araña y otros
+bichos que ni siquiera te atreves a examinar de cerca, es el soporte de la vieja
+biblioteca. La soledad y la tristeza se adivinan por doquier. El estrecho pasillo
+continúa hacia el este a través de la oscuridad.
+/7
+##define loc lSotano2 7
+##define pic pasadizo2.jpg 7
+Continúas por el estrecho pasillo. La oscuridad te rodea y parece envolverte, cada
+vez que pretendes dar un paso. La tristeza y abandono del lugar son más patentes aquí.
+A duras penas te orientas en el pasillo. Pareciera que el tiempo se ha detenido. Sin embargo,
+sabes que hacia el oeste se encuentra la biblioteca -y la luz-, mientras al este ...
+/8
+##define loc lSotano3 8
+##define pic pasadizo3.jpg 8
+El estrecho pasillo huele en este punto a humedad. Debes estar debajo de las cocinas  de la
+gran casa, deduces. Nunca te ha gustado la oscuridad, pero en este pasillo no puedes
+escapar de ella. La biblioteca al oeste te da un poco de tranquilidad, aunque desde
+este punto no puedes ver las escaleras hacia el cuarto oscuro, y la biblioteca. La
+inquietud te invade lentamente. Al este ...
+/9
+##define loc lCripta 9
+##define pic cripta.jpg 9
+De repente, la estrechez del pasillo se abre a una baja pero ancha estancia. No puedes
+ver más que lo que hay delante de tí: un altar, y sobre él, una vieja lámpara. La oscuridad es casi impenetrable. Te quedas paralizado, con temor a moverte
+demasiado. Sientes contínuamente unas ganas terribles de volver al oeste, por donde
+has venido. Pero estás aquí ...
+;	-	-	-	-	-	-	-	-	-
+/CON
+;/0			; Inicio del juego
+;	N	0
+/0
+;
+;
+;
+/lBiblio
+      s     lPasillo
+      sal   lPasillo
+/lPasillo
+      entra lBiblio
+      sal   lSalon
+      s     lSalon
+      n     lBiblio
+/lSalon
+      n     lPasillo
+/lCuartoOscuro
+      sube  lDesvan
+/lDesvan
+      baja  lCuartoOscuro
+/lSotano
+      sube  lCuartoOscuro
+/lSotano2
+      oeste lSotano
+      este  lSotano3
+/lSotano3
+      este lCripta
+      oeste lSotano2
+/lCripta
+      oeste lSotano3
+;	-	-	-	-	-	-	-	-	-
+/OBJ
+;num                  loc      peso   susta  adjetivo   lo_attr                             hi_attr
+;obj	              inic	      ntivo
+;	-	-	-	-	-	-	-	-	-
+/oCandelabro           1        1     candelabro _      10000000000000000000000000000000    00000000000000000000000000000000
+/oLibro                _        1     libro      _      00000000000000000000000000000000    00000000000000000000000000000000
+/oLlave                _        1     llave      _      00000000000000000000000000000000    00000000000000000000000000000000
+/oBonos                _        1     bonos      _      00000000000000000000000000000000    00000000000000000000000000000000
+/oCandelabroApagado    _        1     candelabro _      00000000000000000000000000000000    00000000000000000000000000000000
+/oCerillas             CARRIED  1     cerillas   _      00000000000000000000000000000000    00000000000000000000000000000000
+;
+/PRO 0
+; ------------- banderas del juego -------
+##define flg descubre_mensaje 100
+##define flg tapiz_corrido 101
+##define flg puerta_cerrada 102
+##define flg trampilla_abierta 104
+##define flg lo_has_visto 105
+##define flg tablas_levantadas 106
+
+; --------- algunas acciones que tienen que ir aquí --------
+quita tabla ZERO &&tablas_levantadas
+            CREATE oBonos
+            MESSAGE &&encuentras_bonos
+            LET &&tablas_levantadas 1
+            DONE
+
+quita tabla EQ &&tablas_levantadas 1
+            NOTDONE
+
+; ------- incluir acciones mínimas -------
+
+; ----- Estilos ------------
+##define flg letra_negrita_sw  9
+##define flg letra_cursiva_sw 10
+##define flg letra_normal_sw   0
+
+; ------ Luz ---------------
+##define flg hay_luz_sw        0
+
+; ----- Otros --------------
+##define flg ult_verbo      33
+##define flg ult_nombre     34
+##define flg ult_adjetivo   35
+##define flg ult_adverbio   36
+
+; ------ Acciones ----------
+
+GRAFICOS  ON    GRAPHIC 0
+            SYSMESS 63
+            DONE
+
+GRAFICOS  OFF   GRAPHIC 1
+            SYSMESS 64
+            DONE
+
+SONIDO ON   SOUND 0
+            SYSMESS 65
+            DONE
+
+SONIDO OFF  SOUND 1
+            SYSMESS 66
+            DONE
+
+I	_	INVEN
+
+_ quijote
+            LET 34 _voc_LIBRO
+            
+COGER regenta
+            message &&libro_no_se_coge
+            DONE
+COGER biblia
+            message &&libro_no_se_coge
+            DONE
+COGER tesis message &&libro_no_se_coge
+            DONE
+COGER trafalgar
+	    message &&libro_no_se_coge
+            DONE
+COGER leguas
+	    message &&libro_no_se_coge
+            DONE
+COGER robinson
+	    message &&libro_no_se_coge
+            DONE
+COGER mosquetero
+	    message &&libro_no_se_coge
+            DONE
+COGER cid
+	    message &&libro_no_se_coge
+            DONE
+COGER lampara
+	    AT lCripta
+	    WRITE "No tiene demasiada utilidad sacarla de aquí."
+	    DONE
+COGER TABLAS
+	    LET 33 _voc_LEVANTAR        ; convertir coger en levantar
+
+
+COGER	TODO	DOALL	HERE
+
+COGER	_	AUTOG
+		DONE
+
+DEJAR	TODO	DOALL	CARRIED
+
+DEJAR	_	AUTOD
+		DONE
+
+QUITAR	TODO	DOALL	WORN
+QUITAR	_	AUTOR
+		DONE
+
+PONER	TODO	DOALL	CARRIED
+PONER	_	AUTOW
+		DONE
+
+FIN	_	QUIT
+		TURNS
+		END
+
+GUARDAR	_	SAVE
+
+CARGAR	_	LOAD
+
+RAMSAVE	_	RAMSAVE
+		DESC
+
+RAMLOAD	_	RAMLOAD	255		;Recargar todas las variables
+		DESC
+
+MIRAR	_	DESC
+
+
+; ------------- acciones del juego --------
+SUR   _     AT lCuartoOscuro
+            message &&no_esta_tan_oscuro
+            LET &&hay_luz_sw 0
+            goto &&lBiblio
+            PICTURE &&oscuridad.jpg
+            DONE
+
+SAL   _     AT lCuartoOscuro
+            message &&no_esta_tan_oscuro
+            LET &&hay_luz_sw 0
+            goto lBiblio
+            PICTURE &&oscuridad.jpg
+            DONE
+
+ABAJO _     AT lCuartoOscuro
+            EQ &&trampilla_abierta 1
+            MESSAGE &&esta_realmente_oscuro
+            GOTO lSotano
+            PICTURE &&oscuridad.jpg
+            DONE
+
+EX PUERTA   at lBiblio
+            zero &&tapiz_corrido
+            message &&puerta_desc
+            ZERO &&puerta_cerrada
+            MESSAGE &&puerta_esta_abierta
+            DONE
+
+EX PUERTA   at lBiblio
+            zero &&tapiz_corrido
+            EQ &&puerta_cerrada 1
+            MESSAGE &&puerta_esta_cerrada
+            DONE
+
+levanta tabla
+            AT lDesvan
+            ZERO &&tablas_levantadas
+            MESSAGE &&encuentras_bonos
+            LET &&tablas_levantadas 1
+            CREATE &&oBonos
+            DONE
+
+levanta tabla
+	    AT lDesvan
+            EQ &&tablas_levantadas 1
+            WRITE "¿Qué tablas?"
+            DONE
+
+BUSCA REGENTA
+            at lBiblio
+            absent &&oLlave
+            message &&hojeas_regenta
+            CHARSET &&letra_negrita_sw            
+            message &&encuentras_llave
+            CHARSET &&letra_normal_sw
+            CREATE &&oLlave
+            DONE
+
+BUSCA REGENTA
+            at lBiblio
+            present &&oLlave
+            message &&hojeas_regenta2
+            DONE
+
+BUSCA CID   at lBiblio
+            message &&hojeas_cid
+            DONE
+
+BUSCA LAZARILLO
+            at lBiblio
+            message &&hojeas_lazarillo
+            DONE
+
+BUSCA TESIS at lBiblio
+            message &&hojeas_tesis
+            DONE
+
+BUSCA ROBINSON
+            at lBiblio
+            message &&hojeas_robinson
+            DONE
+
+BUSCA LEGUAS
+            at lBiblio
+            message &&hojeas_leguas
+            DONE
+
+BUSCA MOSQUETERO
+            at lBiblio
+            MESSAGE &&hojeas_mosqueteros
+            DONE
+
+BUSCA BIBLIA
+            at lBiblio
+	    MESSAGE &&hojeas_biblia
+	    DONE
+
+BUSCA trafalgar
+            at lBiblio
+	    MESSAGE &&hojeas_trafalgar
+	    DONE
+
+BUSCA _     at lBiblio
+            message &&no_encuentras_libro
+            DONE
+
+BUSCA _     message &&no_buscar
+            DONE
+
+EX TRAMPILLA let 34 _voc_SUELO ;convierte trampilla en suelo
+
+EX SUELO    AT lCuartoOscuro
+            MESSAGE &&trampilla_desc
+            EQ &&trampilla_abierta 1
+            MESSAGE &&trampilla_esta_abierta
+            DONE
+
+EX TABLA    AT lDesvan
+            MESSAGE &&tablas_desvan_desc
+            DONE
+
+EX SUELO    AT lDesvan
+            MESSAGE &&tablas_desvan_desc
+            DONE
+            
+EX SUELO    AT lCuartoOscuro
+            ZERO &&trampilla_abierta
+            MESSAGE &&trampilla_esta_cerrada
+            DONE
+
+ABRE TRAMPILLA
+            AT lCuartoOscuro
+            MESSAGE &&mueves_la_trampilla
+            MESSAGE &&trampilla_esta_abierta
+            LET &&trampilla_abierta 1
+            DONE
+
+CIERRA TRAMPILLA 
+            AT lCuartoOscuro
+            MESSAGE &&mueves_la_trampilla
+            MESSAGE &&trampilla_esta_cerrada
+            LET &&trampilla_abierta 0
+            DONE
+
+EX BONOS    PRESENT &&oBonos
+            CHARSET &&letra_negrita_sw
+            message &&bonos_desc
+            CHARSET &&letra_normal_sw
+            DONE
+
+EX LIBRO    at lBiblio
+            absent &&oLibro
+            let 34 53 ; convertir LIBRO en LIBRERIA
+
+EX LIBRERIA AT lBiblio
+            ABSENT &&oLibro
+            message &&libreria_desc
+            message &&encuentra_libro
+            create &&oLibro
+            DONE
+
+EX LIBRERIA AT lBiblio
+            message &&libreria_desc
+            DONE
+
+EX CANDELABRO
+            present &&oCandelabro
+            message &&candelabro_desc
+            message &&candelabro_esta_encendido
+            DONE
+
+EX CANDELABRO
+            present &&oCandelabroApagado
+            message &&candelabro_desc
+            message &&candelabro_esta_apagado
+            DONE
+
+EX LLAVE    present &&oLlave
+            message &&llave_desc
+            DONE
+
+EX TAPIZ    AT lBiblio
+            ZERO &&tapiz_corrido
+            message &&tapiz_desc
+            message &&tapiz_esta_descorrido
+            DONE
+
+EX TAPIZ    AT lBiblio
+            EQ &&tapiz_corrido 1
+            message &&tapiz_desc
+            message &&tapiz_esta_corrido
+            DONE
+
+EX TAPIZ    NOTAT lBiblio
+            message &&tapiz_en_biblio
+            DONE
+
+MUEVE TAPIZ AT lBiblio
+            ZERO &&tapiz_corrido
+            message &&corres_tapiz
+            LET &&tapiz_corrido 1
+            DONE
+
+MUEVE TAPIZ AT lBiblio
+            EQ &&tapiz_corrido 1
+            message &&descorres_tapiz
+            LET &&tapiz_corrido 0
+            DONE
+
+CORRE TAPIZ AT lBiblio
+            ZERO &&tapiz_corrido
+            message &&corres_tapiz
+            LET &&tapiz_corrido 1
+            DONE
+
+CORRE TAPIZ AT lBiblio
+            EQ &&tapiz_corrido 1
+            message &&tapiz_esta_corrido
+            NOTDONE
+
+DESCORRE TAPIZ
+            AT lBiblio
+            EQ &&tapiz_corrido 1
+            message &&descorres_tapiz
+            LET &&tapiz_corrido 0
+            DONE
+
+DESCORRE TAPIZ
+            AT lBiblio
+            ZERO &&tapiz_corrido
+            MESSAGE &&tapiz_esta_descorrido
+            NOTDONE
+
+ABRE PUERTA prep con
+            noun2 llave
+            at lBiblio
+            carried &&oLlave
+            ZERO &&tapiz_corrido
+            EQ &&puerta_cerrada 1
+            LET &&puerta_cerrada 0
+            message &&has_abierto_puerta
+            PICTURE &&puerta.jpg
+            ANYKEY
+            DESC
+            DONE
+
+ABRE puerta AT lBiblio
+            ZERO &&tapiz_corrido
+            message &&puerta_bloqueada
+            DONE
+
+ABRE PUERTA AT lBiblio
+            EQ &&tapiz_corrido 1
+            message &&que_puerta
+            DONE
+
+CIERRA PUERTA
+            ZERO &&puerta_cerrada
+            carried &&oLlave
+            at lBiblio
+            LET &&puerta_cerrada 1
+            message &&puerta_esta_cerrada
+            DONE
+
+ENTRA _     at lBiblio
+            ZERO &&puerta_cerrada
+            goto lCuartoOscuro
+            let  &&hay_luz_sw 1
+            message &&esta_muy_oscuro
+            PICTURE &&oscuridad.jpg
+            DONE
+
+METETE _    prep en
+            at lBiblio
+            ZERO &&puerta_cerrada
+            goto &&lCuartoOscuro
+            let  &&hay_luz_sw 1
+            message &&esta_muy_oscuro
+            PICTURE &&oscuridad.jpg
+            DONE
+
+NORTE _     at lBiblio
+            ZERO &&puerta_cerrada
+            goto lCuartoOscuro
+            let &&hay_luz_sw 1
+            message &&esta_muy_oscuro
+            PICTURE &&oscuridad.jpg
+            DONE
+
+ESTE _      at lSotano
+            ZERO &&lo_has_visto
+            MESSAGE &&paso_a_sotano2
+            goto lSotano2
+            PICTURE &&oscuridad.jpg
+            DONE
+
+ESTE _      at lSotano
+            EQ &&lo_has_visto 1
+            CHARSET &&letra_cursiva_sw
+            MESSAGE &&estas_cagao
+            CHARSET &&letra_normal_sw
+            DONE
+
+MIRA DETRAS prep de
+            noun2 tapiz
+            at lBiblio
+            message &&puerta_desc
+            message &&descorre_el_tapiz_hombre
+            DONE
+            
+ESTUDIA   _ message &&no_estudio
+            DONE
+
+EX QUIJOTE  at lBiblio
+            present &&oLibro
+            let &&ult_nombre 52 ; convertir quijote en libro
+
+EX LIBRO    present &&oLibro
+            EQ &&descubre_mensaje 255
+            message &&hojeas_quijote2
+            DONE
+
+EX LIBRO    present &&oLibro
+            ZERO &&descubre_mensaje
+            SET &&descubre_mensaje
+            message &&mensaje_secreto
+            DONE
+
+EX LIBRO    present &&oLibro
+            message &&intuyes_sistema
+            MINUS  &&descubre_mensaje 1
+            done
+
+LEE LIBRO   present &&oLibro
+            ZERO &&descubre_mensaje
+            message &&mensaje_secreto
+            done
+
+LEE LIBRO   present &&oLibro
+            message &&intuyes_sistema
+            MINUS  &&descubre_mensaje 1
+            done
+
+enciende candelabro
+            present &&oCandelabro
+            message &&candelabro_esta_encendido
+            done
+
+enciende candelabro
+            absent &&oCandelabroApagado
+            message &&candelabro_nota
+            done
+
+enciende candelabro
+            present &&oCandelabroApagado
+            present &&oCerillas
+            message &&candelabro_esta_encendido
+            swap  &&oCandelabroApagado &&oCandelabro
+            done
+
+enciende candelabro
+            present &&oCandelabroApagado
+            absent  &&oCerillas
+            message &&necesito_cerillas
+            done
+
+apaga candelabro
+            present &&oCandelabroApagado
+            message &&candelabro_esta_apagado
+            done
+
+apaga candelabro
+            absent &&oCandelabro
+            message &&candelabro_nota
+            done
+
+apaga candelabro
+            present &&oCandelabro
+            message &&candelabro_esta_apagado
+            swap &&oCandelabro &&oCandelabroApagado
+            done
+
+ex lampara
+            AT lCripta
+            MESSAGE &&lampara_desc
+            DONE
+
+ex cerillas PRESENT &&oCerillas
+            MESSAGE &&cerillas_desc
+            DONE
+
+ex altar    AT lCripta
+            MESSAGE &&altar_desc
+            DONE
+
+enciende lampara
+            prep con
+            noun2 candelabro
+            at lCripta
+            present &&oCandelabro
+            MESSAGE &&te_cagas
+            CHARSET &&letra_cursiva_sw
+            MESSAGE &&te_cagas2
+            CHARSET &&letra_normal_sw
+            BEEP &&panico.mod 0
+            ANYKEY
+            LET &&lo_has_visto 1
+            GOTO lSotano
+            PICTURE &&pasadizo.jpg
+            DONE 
+
+enciende lampara 
+            prep con
+            noun2 cerillas
+            at lCripta
+            present &&oCerillas
+            MESSAGE &&te_cagas
+            CHARSET &&letra_cursiva_sw
+            MESSAGE &&te_cagas2
+            CHARSET &&letra_normal_sw
+            BEEP &&panico.mod 0
+            ANYKEY
+            LET &&lo_has_visto 1
+            GOTO lSotano
+            PICTURE &&pasadizo.jpg
+            DONE 
+
+enciende lampara 
+	    at lCripta
+            message &&con_que
+            DONE
+
+EX _        message &&nadaespecial
+            DONE
+
+;	-	-	-	-	-	-	-	-	-
+/PRO 1
+; inicio
+_	_	AT 0
+            CHARSET &&letra_negrita_sw
+            MESSAGE &&msgNombre
+            CHARSET &&letra_cursiva_sw
+            MESSAGE &&msgRelease
+            CHARSET &&letra_normal_sw
+            LET &&descubre_mensaje 3 ; 3 intentos para descubrir el mensaje
+            LET &&tapiz_corrido 1 ; Tapiz corrido
+            LET &&puerta_cerrada 1 ; La puerta está cerrada
+            ANYKEY
+		GOTO 1
+		DESC
+
+_	_	NEWLINE
+		ZERO	      &&hay_luz_sw	       ;Si hay luz...
+		ABSENT	&&oCandelabro ;y no esta la fuente de luz...
+		LISTOBJ			 ;Listar los objetos
+
+_	_	PRESENT	&&oCandelabro ;Si esta la fuente de luz...
+		LISTOBJ			 ;Listar los objetos
+
+_     _     EQ &&lo_has_visto 1
+            CHARSET &&letra_cursiva_sw
+            MESSAGE &&estas_nervioso
+            CHARSET &&letra_normal_sw
+
+_     _     AT lSalon
+            ZERO &&lo_has_visto
+            ZERO &&tablas_levantadas
+            MESSAGE &&nofin
+            TURNS
+            END
+
+_     _     AT &&lSalon
+            EQ &&lo_has_visto 1
+            EQ &&tablas_levantadas 1
+            MESSAGE &&encontraste_todo
+            TURNS
+            END
+
+_     _     AT &&lSalon
+            EQ &&tablas_levantadas 1
+            MESSAGE &&encontraste_pasta
+            TURNS
+            END
+
+_     _     AT &&lSalon
+            EQ &&lo_has_visto 1
+            MESSAGE &&encontraste_vision
+            TURNS
+            END
+
+_     _     AT &&lBiblio
+            ZERO &&tapiz_corrido
+            MESSAGE &&puerta_desc
+
+_     _     AT &&lBiblio
+            ZERO &&tapiz_corrido
+            ZERO &&puerta_cerrada
+            MESSAGE &&puerta_esta_abierta
+
+_     _     AT &&lBiblio
+            ZERO &&tapiz_corrido
+            EQ &&puerta_cerrada 1
+            MESSAGE &&puerta_esta_cerrada
+
+_     _     AT &&lCuartoOscuro
+            EQ &&trampilla_abierta 1
+            MESSAGE &&trampilla_desc
+            MESSAGE &&trampilla_esta_abierta
+
+/PRO 2
+_     _     GT &&hay_luz_sw 0 ; No hay luz
+            PRESENT &&oCandelabro
+            CHANCE 5
+            SWAP &&oCandelabro &&oCandelabroApagado
+            MESSAGE &&aire_gelido
+            CHARSET &&letra_cursiva_sw
+            MESSAGE &&candelabro_esta_apagado
+            CHARSET &&letra_normal_sw
+            
+_     _     GT &&hay_luz_sw 0 ; No hay luz
+            CHANCE 10
+            CHARSET &&letra_cursiva_sw
+            MESSAGE &&hay_una_rata
+            CHARSET &&letra_normal_sw
+
+_     _     GT &&hay_luz_sw 0 ; No hay luz
+            CHANCE 10
+            CHARSET &&letra_cursiva_sw
+            MESSAGE &&hay_arannas
+            CHARSET &&letra_normal_sw
+
+_     _     GT &&hay_luz_sw 0 ; No hay luz
+            CHANCE 15
+            BEEP &&goteo.aif 0

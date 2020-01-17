@@ -1,0 +1,80 @@
+El Legado
+=========
+1880
+Tu tío ha muerto.
+
+Tu tío, con quien compartías una estrecha relación,
+y que de hecho te ha nombrado heredero.
+
+A la herencia la acompaña una responsabilidad ...
+¿Que querría decir tu tío con aquello?
+
+Concurso
+========
+
+Esta aventura ha sido realizada para participar en
+la 3ª Nanocomp.
+
+Esta aventura es un experimento, porque:
+	a) Demuestra la utilidad de txtPAWS, que
+se puede conseguir en la página web al final de
+este archivo.
+	b) Intenta conseguir una buena atmósfera,
+pero sin recurrir a personajes de H.P. Lovecraft,
+ni a ciudades brumosas como Londres ;-)
+
+Pero eso, claro está, debes decidirlo tú. :-D
+
+Cómo jugar
+==========
+
+Se trata de una aventura conversacional. Debes
+teclear las órdenes acerca de las acciones que
+el protagonista debe realizar.
+Sobre aventuras conversacionales, puedes
+encontrar información en:
+http://caad.es/
+
+Para poder ejecutar este fichero, necesitas
+un intérprete Glulx. Puedes encontrarlo en la
+página anterior o en:
+http://caad.es/elarquero/
+
+Ayuda
+=====
+
+Durante el juego, además de los comandos habituales, tienes los siguientes:
+
+GRAFICOS ON			Juego con gráficos
+GRAFICOS OFF			Juego sin gráficos
+SONIDO ON			Juego con sonidos
+SONIDO OFF			Juego sin sonidos
+GUARDAR				Cargar una posición grabada previamente
+CARGAR				Guardar la posición actual en el juego
+RAMLOAD				Cargar la última posición guardada en memoria
+RAMSAVE				Guardar la posición actual en el juego, en la memoria
+
+Versiones
+=========
+Esta es la segunda versión del juego, que arregla algunos
+detalles e incorpora gráficos y sonidos, gracias a
+Superglús.
+
+Disclaimer
+==========
+
+Este juego es totalmente freeware. Quiere decir
+que puedes copiarlo, e incluso reutilizar código
+para tus propios juegos (de hecho me haría incluso
+ilusión que lo hicieras). Eso sí, si redistribuyes
+esta aventura, hazlo con todos los ficheros (sin
+modificación) que la
+componen.
+
+Ante cualquier duda, ponte en contacto con el autor
+en:
+
+baltasarq@yahoo.es
+http://usuarios.lycos.es/elarquero/
+
+Baltasar, el arquero.
