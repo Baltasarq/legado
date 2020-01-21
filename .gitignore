@@ -12,6 +12,12 @@ build.sh
 *.blb
 *.gblorb
 
+# Cordova
+platforms/
+node_modules/
+hooks/
+plugins/
+
 # Android
 # Built application files
 *.apk
