@@ -828,6 +828,7 @@ function endGame(won, pic, msg)
     ctrl.endGame( msg, pic );
 }
 
+// ************************************************************ Environment --
 const ambientationMsgList = new MsgList(
     [ "<i>...te sacudes una tela de araña en algún sitio por delante de ti, \
        que parece pegarse a tu pelo... \
