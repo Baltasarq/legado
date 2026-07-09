@@ -11,7 +11,7 @@ Tu tío siempre te dijo que tú heredarías su fortuna... y su responsabilidad.
 
 Nunca supiste a qué se refería exactamente con aquella frase, que te decía cuando eras un niño y jugabas en sus brazos.
 
-![El Legado](src/FiJs/www/res/legado-title.jpg)
+![El Legado](res/legado-title.jpg)
 
 Los años pasaron, y tu tío acaba de morir dejándote como herencia su fortuna. Eso sí, para obtenerla, para ser merecedor de la misma, tendrías que pasar la noche en la biblioteca de su gran casa, y descubrir por tí mismo hasta dónde llegaba, y qué implicaba aquella herencia... sea lo que sea...
 
