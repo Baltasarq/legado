@@ -26,4 +26,4 @@ Esta aventura fue escrita para participar en la 3ª Nanocomp.
 Se trata de una aventura conversacional. Debes teclear las órdenes acerca de las acciones que el protagonista debe realizar. Sobre aventuras conversacionales, puedes encontrar información en:
 http://caad.es/
 
-Si quieres descargarte la primera versión (Glulxe, con ngPAWS/Paguaglús), necesitas un intérprete Glulxe para el archivo `blb`, como por ejemplo [Gargoyle](https://ccxvii.net/gargoyle/). 
+Si quieres descargarte la primera versión (Glulxe, con ngPAWS/Paguaglús), necesitas un intérprete Glulxe para el archivo `gblorb`, como por ejemplo [Gargoyle](https://ccxvii.net/gargoyle/). 
