@@ -1,1 +1,0 @@
-../src/FiJs/www/legado.js
