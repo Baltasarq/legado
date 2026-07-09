@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ifindex version="1.0" xmlns="http://babel.ifarchive.org/protocol/iFiction/">
+    <story>
+        <identification>
+            <ifid>78AD5924-93E6-4C99-9C8D-9D74EF37FF2E</ifid>
+            <format>html</format>
+        </identification>
+        <bibliographic>
+            <title>El Legado</title>
+            <author>Baltasar</author>
+            <language>ES</language>
+            <headline>La herencia de tu tío venía acompañada de una gran responsabilidad.</headline>
+            <genre>horror</genre>
+            <forgiveness>polite</forgiveness>
+            <description>Madrid, 1880<br/><br/>Tu tío ha muerto.<br/>El dolor te embarga... estabais tan unidos...<br/><br/>Tu tío siempre te dijo que tú heredarías su fortuna... y su responsabilidad.<br/>Nunca supiste a qué se refería exactamente con aquella frase, que te decía cuando <br/>eras un niño y jugabas en sus brazos. Los años pasaron, y tu tío acaba de morir <br/>dejándote como herencia su fortuna. Eso sí, para obtenerla, para ser merecedor de la <br/>misma, tendrías que pasar la noche en la biblioteca de su gran casa, y descubrir por tí <br/>mismo cuánto abarcaba la herencia... sea lo que sea...</description>
+        </bibliographic>
+        <contacts>
+            <authoremail>baltasarq@gmail.com</authoremail>
+            <url>http://caad.es/baltasarq/</url>
+        </contacts>
+        <release>
+            <version>3</version>
+            <releasedate>2020/01/15</releasedate>
+        </release>
+        <colophon>
+            <generator>Babble</generator>
+            <originated>2020/01/15</originated>
+        </colophon>
+    </story>
+</ifindex>
